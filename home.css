@@ -1,0 +1,137 @@
+:root {
+    --main-color:blue;
+}
+
+body{
+    padding: 10px;
+    margin: 0;
+    background: url(images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.body-container{
+    padding: 20px;
+}
+.header img{
+    max-width: 32rem;
+}
+.image-left{
+    position: relative;
+
+}
+.image-left h3{
+    position: absolute;
+    top: 85%;
+    left: 20%;
+}
+.header-left{
+    background-color: white;
+    padding: 1rem;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 4px grey;
+}
+.left-content{
+    margin-bottom: 2rem;
+}
+.icons{
+    display: inline;
+    margin-right: 0;
+    margin-left: auto;
+}
+.icons-child{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+/* WORK SECTION */
+
+.work-stn-content{
+    background-color: rgb(255, 255, 255);
+    max-width: 20rem;
+    height: auto;
+}
+.work-pic{
+    height: 15rem;
+    width: auto;
+    background:url(images/pexels-francesco-ungaro-281260.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+
+}
+.work-pic p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.under-pic,.work-content{
+    padding: 5px;
+}
+.project-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.work-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.work-icon > div{
+    width:1rem;
+}
+.work-content p{
+    margin-bottom:2rem;
+}
+section{
+    padding: 1rem;
+}
+.work-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    padding: 5rem;
+    background-color: rgb(21, 156, 205);
+}
+.foot-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.he-p{
+    max-width: 35rem;
+    height: auto;
+}
+.image img{
+    max-width: 33rem;
+    width: auto;
+}
+.footer-icons{
+    display: flex;
+    gap: 1rem;
+}
+.contact >p{
+    justify-items: center;
+    display: flex;
+    gap: 1rem;
+}
+.contact > p > img{
+    height: 25px;
+    width: auto;
+}
